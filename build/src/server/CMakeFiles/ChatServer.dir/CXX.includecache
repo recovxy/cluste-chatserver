@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/server/db/db.h
+mysql/mysql.h
+-
+string
+-
+
+../include/server/model/FriendModel.hpp
+User.hpp
+../include/server/model/User.hpp
+vector
+-
+
+../include/server/model/User.hpp
+string
+-
+
+../include/server/model/UserModel.hpp
+User.hpp
+../include/server/model/User.hpp
+
+/root/workspace/cluste-chatserver/src/server/model/FriendMoel.cpp
+FriendModel.hpp
+/root/workspace/cluste-chatserver/src/server/model/FriendModel.hpp
+db.h
+/root/workspace/cluste-chatserver/src/server/model/db.h
+
+/root/workspace/cluste-chatserver/src/server/model/UserModel.cpp
+UserModel.hpp
+/root/workspace/cluste-chatserver/src/server/model/UserModel.hpp
+db.h
+/root/workspace/cluste-chatserver/src/server/model/db.h
+iostream
+-
+
