@@ -30,6 +30,10 @@ src/server/CMakeFiles/ChatServer.dir/chatservice.cpp.o: ../src/server/chatservic
 src/server/CMakeFiles/ChatServer.dir/db/db.cpp.o: ../include/server/db/db.h
 src/server/CMakeFiles/ChatServer.dir/db/db.cpp.o: ../src/server/db/db.cpp
 
+src/server/CMakeFiles/ChatServer.dir/db/dbConnectionPool.cpp.o: ../include/server/db/db.h
+src/server/CMakeFiles/ChatServer.dir/db/dbConnectionPool.cpp.o: ../include/server/db/dbConnectionPool.h
+src/server/CMakeFiles/ChatServer.dir/db/dbConnectionPool.cpp.o: ../src/server/db/dbConnectionPool.cpp
+
 src/server/CMakeFiles/ChatServer.dir/main.cpp.o: ../include/server/chatserver.hpp
 src/server/CMakeFiles/ChatServer.dir/main.cpp.o: ../include/server/chatservice.hpp
 src/server/CMakeFiles/ChatServer.dir/main.cpp.o: ../include/server/model/FriendModel.hpp
@@ -44,11 +48,13 @@ src/server/CMakeFiles/ChatServer.dir/main.cpp.o: ../thirdparty/json.hpp
 src/server/CMakeFiles/ChatServer.dir/main.cpp.o: ../src/server/main.cpp
 
 src/server/CMakeFiles/ChatServer.dir/model/FriendMoel.cpp.o: ../include/server/db/db.h
+src/server/CMakeFiles/ChatServer.dir/model/FriendMoel.cpp.o: ../include/server/db/dbConnectionPool.h
 src/server/CMakeFiles/ChatServer.dir/model/FriendMoel.cpp.o: ../include/server/model/FriendModel.hpp
 src/server/CMakeFiles/ChatServer.dir/model/FriendMoel.cpp.o: ../include/server/model/User.hpp
 src/server/CMakeFiles/ChatServer.dir/model/FriendMoel.cpp.o: ../src/server/model/FriendMoel.cpp
 
 src/server/CMakeFiles/ChatServer.dir/model/GroupModel.cpp.o: ../include/server/db/db.h
+src/server/CMakeFiles/ChatServer.dir/model/GroupModel.cpp.o: ../include/server/db/dbConnectionPool.h
 src/server/CMakeFiles/ChatServer.dir/model/GroupModel.cpp.o: ../include/server/model/Group.hpp
 src/server/CMakeFiles/ChatServer.dir/model/GroupModel.cpp.o: ../include/server/model/GroupModel.hpp
 src/server/CMakeFiles/ChatServer.dir/model/GroupModel.cpp.o: ../include/server/model/GroupUser.hpp
@@ -56,10 +62,12 @@ src/server/CMakeFiles/ChatServer.dir/model/GroupModel.cpp.o: ../include/server/m
 src/server/CMakeFiles/ChatServer.dir/model/GroupModel.cpp.o: ../src/server/model/GroupModel.cpp
 
 src/server/CMakeFiles/ChatServer.dir/model/OfflineMessageModel.cpp.o: ../include/server/db/db.h
+src/server/CMakeFiles/ChatServer.dir/model/OfflineMessageModel.cpp.o: ../include/server/db/dbConnectionPool.h
 src/server/CMakeFiles/ChatServer.dir/model/OfflineMessageModel.cpp.o: ../include/server/model/OfflineMessageModel.hpp
 src/server/CMakeFiles/ChatServer.dir/model/OfflineMessageModel.cpp.o: ../src/server/model/OfflineMessageModel.cpp
 
 src/server/CMakeFiles/ChatServer.dir/model/UserModel.cpp.o: ../include/server/db/db.h
+src/server/CMakeFiles/ChatServer.dir/model/UserModel.cpp.o: ../include/server/db/dbConnectionPool.h
 src/server/CMakeFiles/ChatServer.dir/model/UserModel.cpp.o: ../include/server/model/User.hpp
 src/server/CMakeFiles/ChatServer.dir/model/UserModel.cpp.o: ../include/server/model/UserModel.hpp
 src/server/CMakeFiles/ChatServer.dir/model/UserModel.cpp.o: ../src/server/model/UserModel.cpp

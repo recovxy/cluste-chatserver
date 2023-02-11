@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/root/workspace/cluste-chatserver/src/server/chatserver.cpp" "/root/workspace/cluste-chatserver/build/src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.o"
   "/root/workspace/cluste-chatserver/src/server/chatservice.cpp" "/root/workspace/cluste-chatserver/build/src/server/CMakeFiles/ChatServer.dir/chatservice.cpp.o"
   "/root/workspace/cluste-chatserver/src/server/db/db.cpp" "/root/workspace/cluste-chatserver/build/src/server/CMakeFiles/ChatServer.dir/db/db.cpp.o"
+  "/root/workspace/cluste-chatserver/src/server/db/dbConnectionPool.cpp" "/root/workspace/cluste-chatserver/build/src/server/CMakeFiles/ChatServer.dir/db/dbConnectionPool.cpp.o"
   "/root/workspace/cluste-chatserver/src/server/main.cpp" "/root/workspace/cluste-chatserver/build/src/server/CMakeFiles/ChatServer.dir/main.cpp.o"
   "/root/workspace/cluste-chatserver/src/server/model/FriendMoel.cpp" "/root/workspace/cluste-chatserver/build/src/server/CMakeFiles/ChatServer.dir/model/FriendMoel.cpp.o"
   "/root/workspace/cluste-chatserver/src/server/model/GroupModel.cpp" "/root/workspace/cluste-chatserver/build/src/server/CMakeFiles/ChatServer.dir/model/GroupModel.cpp.o"

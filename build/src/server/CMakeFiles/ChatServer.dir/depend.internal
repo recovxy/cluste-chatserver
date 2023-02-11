@@ -30,6 +30,10 @@ src/server/CMakeFiles/ChatServer.dir/chatservice.cpp.o
 src/server/CMakeFiles/ChatServer.dir/db/db.cpp.o
  ../include/server/db/db.h
  /root/workspace/cluste-chatserver/src/server/db/db.cpp
+src/server/CMakeFiles/ChatServer.dir/db/dbConnectionPool.cpp.o
+ ../include/server/db/db.h
+ ../include/server/db/dbConnectionPool.h
+ /root/workspace/cluste-chatserver/src/server/db/dbConnectionPool.cpp
 src/server/CMakeFiles/ChatServer.dir/main.cpp.o
  ../include/server/chatserver.hpp
  ../include/server/chatservice.hpp
@@ -45,11 +49,13 @@ src/server/CMakeFiles/ChatServer.dir/main.cpp.o
  /root/workspace/cluste-chatserver/src/server/main.cpp
 src/server/CMakeFiles/ChatServer.dir/model/FriendMoel.cpp.o
  ../include/server/db/db.h
+ ../include/server/db/dbConnectionPool.h
  ../include/server/model/FriendModel.hpp
  ../include/server/model/User.hpp
  /root/workspace/cluste-chatserver/src/server/model/FriendMoel.cpp
 src/server/CMakeFiles/ChatServer.dir/model/GroupModel.cpp.o
  ../include/server/db/db.h
+ ../include/server/db/dbConnectionPool.h
  ../include/server/model/Group.hpp
  ../include/server/model/GroupModel.hpp
  ../include/server/model/GroupUser.hpp
@@ -57,10 +63,12 @@ src/server/CMakeFiles/ChatServer.dir/model/GroupModel.cpp.o
  /root/workspace/cluste-chatserver/src/server/model/GroupModel.cpp
 src/server/CMakeFiles/ChatServer.dir/model/OfflineMessageModel.cpp.o
  ../include/server/db/db.h
+ ../include/server/db/dbConnectionPool.h
  ../include/server/model/OfflineMessageModel.hpp
  /root/workspace/cluste-chatserver/src/server/model/OfflineMessageModel.cpp
 src/server/CMakeFiles/ChatServer.dir/model/UserModel.cpp.o
  ../include/server/db/db.h
+ ../include/server/db/dbConnectionPool.h
  ../include/server/model/User.hpp
  ../include/server/model/UserModel.hpp
  /root/workspace/cluste-chatserver/src/server/model/UserModel.cpp

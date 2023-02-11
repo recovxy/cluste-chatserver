@@ -206,6 +206,33 @@ db/db.cpp.s:
 	cd /root/workspace/cluste-chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/db/db.cpp.s
 .PHONY : db/db.cpp.s
 
+db/dbConnectionPool.o: db/dbConnectionPool.cpp.o
+
+.PHONY : db/dbConnectionPool.o
+
+# target to build an object file
+db/dbConnectionPool.cpp.o:
+	cd /root/workspace/cluste-chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/db/dbConnectionPool.cpp.o
+.PHONY : db/dbConnectionPool.cpp.o
+
+db/dbConnectionPool.i: db/dbConnectionPool.cpp.i
+
+.PHONY : db/dbConnectionPool.i
+
+# target to preprocess a source file
+db/dbConnectionPool.cpp.i:
+	cd /root/workspace/cluste-chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/db/dbConnectionPool.cpp.i
+.PHONY : db/dbConnectionPool.cpp.i
+
+db/dbConnectionPool.s: db/dbConnectionPool.cpp.s
+
+.PHONY : db/dbConnectionPool.s
+
+# target to generate assembly for a file
+db/dbConnectionPool.cpp.s:
+	cd /root/workspace/cluste-chatserver/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/db/dbConnectionPool.cpp.s
+.PHONY : db/dbConnectionPool.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -386,6 +413,9 @@ help:
 	@echo "... db/db.o"
 	@echo "... db/db.i"
 	@echo "... db/db.s"
+	@echo "... db/dbConnectionPool.o"
+	@echo "... db/dbConnectionPool.i"
+	@echo "... db/dbConnectionPool.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
